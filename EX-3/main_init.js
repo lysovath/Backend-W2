@@ -1,6 +1,6 @@
-import { Duration } from "./model/Duration.js";
-import { RaceResultsService } from "./service/RaceResultsService.js";
-import { RaceResult } from "./model/RaceResult.js";
+import Duration from "./model/Duration.js";
+import RaceResultsService from "./service/RaceResultsService.js";
+import RaceResult from "./model/RaceResult.js";
 
 // Initialize RaceResultsService
 const raceResultService = new RaceResultsService();
